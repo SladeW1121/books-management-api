@@ -1,7 +1,8 @@
 # Books Management API
 
 A simple Java + Spring Boot project for managing a list of books.  
-Includes basic CRUD operations, validation, DTOs, and proper HTTP responses.
+Includes basic CRUD operations, validation, DTOs, and proper HTTP responses.  
+All book data is memorized in an H2 relational database.
 
 ---
 
@@ -10,7 +11,7 @@ Includes basic CRUD operations, validation, DTOs, and proper HTTP responses.
 - Java 17
 - Spring Boot
 - Spring Web
-- Spring Data JPA (H2 database)
+- Spring Data JPA (H2 database, file-based storage)
 - Jakarta Validation (`@Valid`, `@NotBlank`, `@NotNull`)
 - REST API tested via Postman
 - DTOs for request/response separation
