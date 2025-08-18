@@ -23,9 +23,8 @@ public class ServiceBook {
 
     @Transactional
     public boolean deleteBookService(String bookName, String authorName) {
-        long rows = repositoryBook
-                .deleteByNameIgnoreCaseAndAuthorIgnoreCase(bookName, authorName);
-        return rows > 0; // true dacă a șters cel puțin un rând
+        long rows = repositoryBook.deleteByNameIgnoreCaseAndAuthorIgnoreCase(bookName, authorName);
+        return rows > 0;
     }
 
     @Transactional
