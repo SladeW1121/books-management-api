@@ -8,15 +8,8 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.2.8</version>
-        <relativePath/> <!-- important în unele IDE-uri -->
+        <relativePath/>
     </parent>
-
-<!--    <parent>-->
-<!--        <groupId>org.springframework.boot</groupId>-->
-<!--        <artifactId>spring-boot-starter-parent</artifactId>-->
-<!--        <version>3.1.5</version>-->
-<!--        <relativePath/>-->
-<!--    </parent>-->
 
     <groupId>org.example</groupId>
     <artifactId>test10</artifactId>
